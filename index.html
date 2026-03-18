@@ -3,90 +3,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kevin & Kae Woei — Wedding Invitation</title>
+<title>Kevin & Kae Woei Wedding</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
-body {
-    margin: 0;
-    background: #efe6d8;
-    font-family: "Playfair Display", serif;
-    color: #3b2f2f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 20px 0;
+
+body{
+margin:0;
+background:#efe6d8;
+font-family:"Playfair Display",serif;
+display:flex;
+align-items:center;
+justify-content:center;
+min-height:100vh;
 }
 
-.card {
-    background: #f5efe6;
-    width: 420px;
-    padding: 50px 40px;
-    text-align: center;
-    border: 1px solid #d8cfc2;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+.card{
+background:#f5efe6;
+width:420px;
+padding:60px 40px;
+text-align:center;
+border:1px solid #d8cfc2;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
 }
 
-.divider {
-    width: 60px;
-    height: 1px;
-    background: #c7b8a3;
-    margin: 20px auto;
+.names{
+font-family:"Great Vibes",cursive;
+font-size:42px;
+margin-bottom:10px;
 }
 
-.names {
-    font-family: "Great Vibes", cursive;
-    font-size: 40px;
-    margin: 10px 0;
+.subtitle{
+font-size:16px;
+margin-bottom:40px;
+letter-spacing:1px;
 }
 
-.subtitle {
-    font-size: 14px;
-    letter-spacing: 1px;
+.lang-buttons a{
+display:block;
+margin:15px auto;
+padding:12px 20px;
+border:1px solid #3b2f2f;
+width:200px;
+text-decoration:none;
+color:#3b2f2f;
+font-size:16px;
+transition:all 0.3s ease;
 }
 
-.details {
-    margin-top: 25px;
-    line-height: 1.7;
-    font-size: 15px;
+.lang-buttons a:hover{
+background:#3b2f2f;
+color:#f5efe6;
 }
 
-.venue {
-    font-weight: 600;
+.divider{
+width:60px;
+height:1px;
+background:#c7b8a3;
+margin:25px auto;
 }
 
-.footer {
-    margin-top: 25px;
-    font-size: 13px;
-    font-style: italic;
+.logo{
+margin-top:40px;
+opacity:0.8;
 }
 
-.logo-footer img {
-    width: 120px;
-    margin-top: 5px;   /* pushes logo further down */
-    padding-top: 5px;  /* extra breathing space */
-}
-
-.button {
-    display: inline-block;
-    margin: 10px 8px 0;
-    padding: 10px 20px;
-    border: 1px solid #3b2f2f;
-    text-decoration: none;
-    color: #3b2f2f;
-    font-size: 14px;
-    transition: all 0.3s ease;
-}
-
-.button:hover {
-    background: #3b2f2f;
-    color: #f5efe6;
-}
-
-.map-container{
-margin-top:20px;
+.logo img{
+width:90px;
 }
 
 </style>
@@ -96,65 +80,26 @@ margin-top:20px;
 
 <div class="card">
 
-<div class="subtitle">Together with their families</div>
-<div class="divider"></div>
-
-<div class="names">Kevin Lim</div>
-<div>&</div>
-<div class="names">Kae Woei</div>
-
+<div class="names">Kevin & Kae Woei</div>
+<div class="subtitle">Wedding Invitation</div>
 
 <div class="divider"></div>
 
-<div class="details">
-joyfully invite you to celebrate their marriage
-<br><br>
+<div class="lang-buttons">
 
-<strong>Saturday, 12th September 2026</strong><br>
-12:00 Noon
-<br><br>
+<a href="en.html">English Invitation</a>
 
-<div class="venue">
-Sarkies Restaurant<br>
-Eastern & Oriental Hotel<br>
-Penang, Malaysia
-</div>
+<a href="zh.html" style="font-family:'Noto Serif SC',serif;">
+中文邀请函
+</a>
+
 </div>
 
-<div class="logo-footer">
+<div class="logo">
 <img src="eo-logo.png" alt="Eastern & Oriental Hotel">
-</div>
-
-<div class="footer">
-Reception Luncheon to Follow
-</div>
-
-<br>
-
-<a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdjdI5usZIdcMS7KdFxhVCvP0L6j20t8eT8vdvfWx6W1H-ckQ/viewform?usp=publish-editor?subject=Wedding RSVP — Kevin & Kae Woei">
-RSVP
-</a>
-
-<a class="button" href="https://maps.app.goo.gl/Le86tVdd6ZU8jQbX7" target="_blank">
-View Location
-</a>
-
-<div class="map-container">
-<iframe 
-src="https://www.google.com/maps?q=Eastern+%26+Oriental+Hotel+Penang&output=embed"
-width="100%" 
-height="220" 
-style="border:0; border-radius:8px;"
-allowfullscreen="" 
-loading="lazy">
-</iframe>
 </div>
 
 </div>
 
 </body>
-
 </html>
-
-
-
